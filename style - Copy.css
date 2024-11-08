@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    flex-direction:column;
+    align-items: left;
+    margin: 2;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1557411732-1797a9171fcf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwNjMyMDF8&ixlib=rb-4.0.3&q=85);
+}
+
+header {
+    background-color: #333;
+    color:#D50000 ;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+#search-bar {
+    margin-top: 5px;
+    padding: 8px;
+    width: 50%;
+}
+
+.game-list {
+    display:inline;
+   justify-content: space-around; /* Adjust spacing between boxes */
+    flex-direction: row-reverse;
+    align-items:center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0px;
+}
+
+.game-item {
+    background-color:#90CAF9 ;
+    border: 1px solid #D50000;
+    padding: 15px;
+    margin: 10px;
+    width: 100
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position:Static ;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#B71C1C;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position:bottom;
+    bottom:0%;
+}
